@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Search Results</title></head>
+<body>
+    <h1>Search Results</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Password</th>
+        </tr>
+        % foreach my $row (@$results) {
+            <tr>
+                <td><%= $row->{id} %></td>
+                <td><%= $row->{username} %></td>
+                <td><%= $row->{password} %></td>
+            </tr>
+        % }
+    </table>
+    <a href="/sql_injection">Back</a>
+</body>
+</html>

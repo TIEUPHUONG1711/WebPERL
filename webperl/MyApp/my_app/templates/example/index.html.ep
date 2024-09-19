@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to MyApp</h1>
+        </div>
+    </header>
+    <div class="container">
+        <p>This is the welcome page of your Mojolicious application.</p>
+        <p>Here you can add more information or links to other parts of your application.</p>
+    </div>
+</body>
+</html>
+ layout 'default';
+% title 'Welcome Page';
+<h2>Welcome to MyApp</h2>
+<p>This is the welcome page of your Mojolicious application.</p>

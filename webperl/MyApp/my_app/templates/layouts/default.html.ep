@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Application</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/sql_injection">SQL Injection Demo</a></li>
+                <!-- Thêm các liên kết khác nếu cần -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <%= content %>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Application</p>
+    </footer>
+</body>
+</html>

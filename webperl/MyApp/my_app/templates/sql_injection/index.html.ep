@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>SQL Injection Demo</title></head>
+<body>
+    <h1>SQL Injection Demo</h1>
+    <form method="post" action="/sql_injection/search">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
